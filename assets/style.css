@@ -1,0 +1,94 @@
+.sale-splash-gift-wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sale-splash-gift-wrapper select.sale-splash-gift-product {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sale-splash-campaign-products {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.sale-splash-campaign-products h2 {
+    color: #a72639;
+    font-size: 20px;
+    margin-bottom: 20px !important;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.campaign-products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.campaign-product {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-product a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.campaign-product .min-order-total {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.campaign-product-name {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.campaign-regular-price {
+    font-size: 14px;
+    color: #888888;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.campaign-special-price {
+    font-size: 16px;
+    color: #a72639;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.campaign-product .button.add-to-cart {
+    background-color: #fcb800;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.campaign-product .button.add-to-cart[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
